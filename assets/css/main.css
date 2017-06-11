@@ -85,19 +85,14 @@ footer {
 div.col-sm-12  div.banner-title {
   font-size: 48px;
   font-weight: 500;
-  margin-left: auto;
   text-align: center;
   margin-top: 70px;
   margin-bottom: 20px;
 }
 div.col-sm-12 div.banner-subtitle {
   margin-top: 12px;
-  color: #8C8C8C;
-  text-align: center;
-}
-div.col-sm-12 div.contents {
-  margin-top: 10px;
   margin-bottom: 20px;
+  color: #8C8C8C;
   text-align: center;
 }
 
