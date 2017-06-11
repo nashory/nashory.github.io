@@ -91,8 +91,9 @@ div.col-sm-12  div.banner-title {
   margin-bottom: 20px;
 }
 div.col-sm-12 div.banner-subtitle {
-  margin-top: 10px;
+  margin-top: 12px;
   color: #8C8C8C;
+  text-align: center;
 }
 div.col-sm-12 div.contents {
   margin-top: 10px;
