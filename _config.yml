@@ -32,7 +32,7 @@ google_analytics: UA-XXXXXXXX-Y
 avatar_url: /assets/img/profile.jpg
 
 # Build settings
-highlighter: rogue
+highlighter: rouge
 markdown: kramdown
 theme: minima
 gems:
