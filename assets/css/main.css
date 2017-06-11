@@ -81,9 +81,23 @@ footer {
   padding-bottom: 10px;
 }
 
+/* Banner */
+div.banner  div.banner-title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-left: auto;
+  text-align: left;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+div.contents {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 /* Left column */
 div.col-sm-3 {
-  margin-top: 250px;
+  margin-top: 50px;
   font-size: 16px;
   color: #666;
 }

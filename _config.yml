@@ -27,6 +27,10 @@ url: "https://github.com/nashory/nashory.github.io" # the base hostname & protoc
 twitter_username: stellastra
 github_username:  nashory
 
+disqus_shortname: nashory_themes
+google_analytics: UA-XXXXXXXX-Y
+avatar_url: /assets/img/profile.jpg
+
 # Build settings
 highlighter: rogue
 markdown: kramdown
