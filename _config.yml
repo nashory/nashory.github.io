@@ -25,7 +25,7 @@ banner-title: Going deeper with daily effort
 banner-subtitle: M.C.Shin's Reasearch blog of Artificial Intelligence and Deep Learning.
 github: https://github.com/nashory
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://github.com/nashory/nashory.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nashory.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: stellastra
 github_username:  nashory
 
@@ -42,3 +42,10 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+permalink: /_posts/:title.html
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
