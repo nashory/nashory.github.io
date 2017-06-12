@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "github 시작하기"
-date:   2017-06-11 21:46:44 +0900
-description: this is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdf
+title:  "Blog 테스트용 더미파일"
+date:   2017-06-13 16:46:44 +0814
+description: sdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdff
 categories: jekyll music
 ---
 <s>You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.</s>
