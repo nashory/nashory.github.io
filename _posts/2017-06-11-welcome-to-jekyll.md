@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "github 시작하기"
 date:   2017-06-11 21:46:44 +0900
 description: this is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdfthis is test.sdf

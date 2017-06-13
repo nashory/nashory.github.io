@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Blog 테스트용 더미파일"
 date:   2017-06-13 16:46:44 +0814
 description: sdfsdfsdfsdfsdff sdfsdfsdfsdfsdffsdfsdfsdfsdfsd ffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdf fsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsd fsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfs dfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdf sdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdff sdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfs dfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdff
