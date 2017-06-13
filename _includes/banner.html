@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="col-sm-12">
+      <div class="blog-header">
+        <a id="blog-header" href="/"><h6><p class="text-center text-muted"> {{ site.blog-header }} </p></h6></a>
+        <!--{{ site.banner-subtitle }}-->
+      </div>
+  </div>
+  <div "col-sm-3">
+    <div class="social">
+      <ul>
+        {% for link in site.social %}
+        <li><a href="{{ link.link }}" target="_blank"><i class="fa {{ link.icon }}"></i></a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <!-- end /.col-sm-12 -->
+</div>

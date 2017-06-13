@@ -22,7 +22,7 @@ description: > # this means to ignore newlines until "baseurl:"
 author: Minchul Shin
 about: Artificial Intelligence researcher. Research topic is deep learning and Human-robot interaction(HRI).
 banner-title: Going deeper with daily effort
-banner-subtitle: M.C.Shin's Reasearch blog of Artificial Intelligence and Deep Learning.
+blog-header: M.C.Shin's Reasearch blog of Artificial Intelligence and Deep Learning.
 github: https://github.com/nashory
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://nashory.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -47,6 +47,18 @@ exclude:
 paginate: 20
 per_page: 20
 paginate_path: "/page/:num/"
+
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-twitter
+      link: "https://twitter.com/stellastra"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/stellastra"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/nashory"
 
 compress_html:
   clippings: all

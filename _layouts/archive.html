@@ -1,0 +1,26 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+  <!-- Basic setting -->
+  <head>
+    {% include init_params.html %}
+  </head>
+
+  <body>
+    {% include banner.html %}
+    <div class="container">
+      <div class="col-sm-12">
+        <div class="page-title"><p> Archive </p></div>
+      </div>
+
+      <!-- display contents sorted by years. -->
+      <div class="col-sm-10 col-sm-offset-1 main-layout">
+        {% include sort_by_year.html %}
+        {% include footer.html %}
+      </div>
+    </div>
+    <!-- end /.container -->
+  <body>
+</html>

@@ -4,9 +4,10 @@
 
     {% if forloop.first %}
     <div class="container">
-      <div class="col-sm-10 col-sm-pull-1">
+      <div class="col-sm-9">
         <h4 id="{{ this_year }}-ref">
           <p class="text-center"> {{this_year}} </p>
+          <hr />
         </h4>
       </div>
     <ul class="list-unstyled">
@@ -25,9 +26,10 @@
     {% else %}
         {% if this_year != next_year %}
         </ul>
-          <div class="col-sm-10 col-sm-pull-1">
+          <div class="col-sm-9">
             <h4 id="{{ next_year }}-ref">
               <p class="text-center"> {{next_year}} </p>
+              <hr />
             </h4>
           </div>
         <ul class="list-unstyled">
