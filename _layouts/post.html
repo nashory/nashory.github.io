@@ -25,8 +25,8 @@ layout: compress
 
         <div class="content">
           <div class="post">{{ content }}</div>
-          {% include share-page.html %}
         </div>
+        {% include page_share.html %}
 
         {% assign hasSimilar = '' %}
           {% for post in site.posts  %}
@@ -58,23 +58,8 @@ layout: compress
         </div>
         {% endif %}
 
-        <div class="PageNavigation">
-          <a class="text-left text-primary prev" href="{{ page.previous.url }}" style="font-size:18px">
-          {% if page.previous.url %}
-            <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> prev &laquo; {{ page.previous.title }}
-          {% else %}
-            <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> prev &laquo; No posts
-          {% endif %}
-          </a>
-
-          <a class="text-left text-primary next" href="{{ page.next.url }}" style="font-size:18px">
-          {% if page.next.url %}
-            <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> next &raquo; {{ page.next.title }}
-          {% else %}
-            <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> next &raquo; No posts
-          {% endif %}
-          </a>
-        </div>
+        <!-- Pave navi. -->
+        {% include page_navi.html %}
 
         <!-- Include Disqus API. -->
         <div class="disqus-comments">
