@@ -43,14 +43,6 @@ h6 {
   margin-bottom: 5px;
   font-size: 16px;
 }
-a, a:link, a:active {
-  text-decoration: none;
-  color: #3fa757;
-}
-a:hover {
-  color: #B3B3B3;
-  text-decoration: underline;
-}
 
 /* Layout */
 .main-layout {
@@ -115,11 +107,11 @@ a:hover {
     text-decoration: underline;
 }
 a:active {
-    color: red;
+    color: darkgray;
 }
 
 /* Banner */
-div.col-sm-12  div.page-title {
+div.page-title {
   font-size: 48px;
   font-weight: 400;
   text-align: center;
@@ -159,6 +151,8 @@ div.col-sm-3 img.profile-avatar {
   margin-left: auto;
   margin-right: auto;
 }
+
+
 
 /* Pagination */
 .PageNavigation {

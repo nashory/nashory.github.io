@@ -5,14 +5,23 @@
         <!--{{ site.banner-subtitle }}-->
       </div>
   </div>
-  <div "col-sm-3">
-    <div class="social">
-      <ul>
-        {% for link in site.social %}
-        <li><a href="{{ link.link }}" target="_blank"><i class="fa {{ link.icon }}"></i></a></li>
-        {% endfor %}
-      </ul>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="social">
+        <ul>
+          {% for link in site.social %}
+          <li><a href="{{ link.link }}" target="_blank"><i class="fa {{ link.icon }}"></i></a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-4 text-center">
+      <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-default">Profile</button>
+        <button type="button" class="btn btn-default">Archive</button>
+        <button type="button" class="btn btn-default">Category</button>
+        <button type="button" class="btn btn-default">Wallpaper</button>
+      </div>
     </div>
   </div>
-  <!-- end /.col-sm-12 -->
 </div>
