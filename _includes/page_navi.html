@@ -1,17 +1,16 @@
 <div class="PageNavigation">
   <a class="text-left text-primary prev" href="{{ page.previous.url }}" style="font-size:18px">
   {% if page.previous.url %}
-    <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> prev &laquo; {{ page.previous.title }}
+    <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> {{ page.previous.title }} &laquo; prev
   {% else %}
-    <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> prev &laquo; No posts
+    <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> No posts &laquo; prev
   {% endif %}
   </a>
-
   <a class="text-left text-primary next" href="{{ page.next.url }}" style="font-size:18px">
   {% if page.next.url %}
-    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> next &raquo; {{ page.next.title }}
+    next &raquo; {{ page.next.title }} <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
   {% else %}
-    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> next &raquo; No posts
+    next &raquo; No posts &raquo; <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
   {% endif %}
   </a>
 </div>
