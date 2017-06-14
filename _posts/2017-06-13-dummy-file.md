@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Blog 테스트용 더미파일"
 date:   2017-06-13 16:46:44 +0814
-description: sdfsdfsdfsdfsdff sdfsdfsdfsdfsdffsdfsdfsdfsdfsd ffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdf fsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsd fsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfs dfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdf sdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdff sdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdffsdfsdfs dfsdfsdffsdfsdfsdfsdfsdffsdfsdfsdfsdfsdff
+description: sdfsdfsdfsdfsdff sdf sdfsdfsdfs dffsdfsdfsd fsdfsd ffsdfsdfsdfs dfsdff sdfsdfsdfsdf sdffsdfsdfsdfsdfsdf fsdfsdfsdfsdfs dffsdfsdfsdfs dfsdffsdfsdfsd fsdfsdffsd fsdfsdfsdfsdffsdfsdfsdfs dfsdffsdfsdfsdf sdfsdffsdfsdfsdfsdfsdff sdfsdfsdfsdf sdffsdfsdfsdf sdfsdffsdf sdfsdfsd fsdf fsdfsdfsdfsdfsdff sdfsdfsdfsdf sdffsdfsd fsdfsdfsdffsdfsdfsdfsdfsdffsd fsdfs dfsdfsdffsdfs dfsdfsdfsdffsdf sdfsdfsdfsdff
 categories: jekyll music
 ---
 <s>You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.</s>
