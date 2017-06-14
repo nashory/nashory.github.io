@@ -11,9 +11,23 @@ layout: compress
   <body>
     {% include banner.html %}
     <div class="container">
-        <div class="col-sm-10 col-sm-offset-1 main-layout">
-            {% include bravenet_guestbook.html %}
+      <div class="col-sm-10 col-sm-offset-1 main-layout text-center">
+        <div class="alert alert-warning alert-dismissible text-left" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <p style="font-size:14px">
+            <span class="glyphicon glyphicon-alert" aria-hidden="true"></span>
+            <strong>&nbsp;Warning!&nbsp;</strong> Wallpaper 기능은 모바일 환경을 지원하지 않습니다.
+          </p>
         </div>
+        <div class="alert alert-warning alert-dismissible text-left" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <p style="font-size:14px">
+            <span class="glyphicon glyphicon-alert" aria-hidden="true"></span>
+            <strong>&nbsp;Warning!&nbsp;</strong> 페이지가 정상적으로 로드되지 않는 경우 오른쪽 상단에 '안전하지 않은 스크립트 로드'를 클릭해주세요.
+          </p>
+        </div>
+        {% include bravenet_guestbook.html %}
+      </div>
     </div>
   <body>
 </html>
