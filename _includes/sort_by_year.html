@@ -3,16 +3,15 @@
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
     {% if forloop.first %}
-    <div class="container">
-      <div class="col-sm-8 col-sm-offset-1">
+      <div class="col-sm-12">
         <h4 id="{{ this_year }}-ref">
-          <p class="text-left"> {{this_year}} </p>
+          <p class="text-center"> {{this_year}} </p>
           <hr />
         </h4>
       </div>
     <ul class="list-unstyled">
     {% endif %}
-      <div class="col-sm-8 col-sm-push-1">
+      <div class="col-sm-12">
         <li>
             <a href="{{ site.url }}{{ post.url }}"><h1><p class="text-left text-primary"> {{ post.title }} </p></h1></a>
             <h6><p class="text-left text-muted" style="font-size:16px"> - {{ post.date | date_to_string }} </p></h6>
@@ -22,13 +21,12 @@
 
     {% if forloop.last %}
     </ul>
-    </div>
     {% else %}
         {% if this_year != next_year %}
         </ul>
-          <div class="col-sm-8 col-sm-offset-1">
+          <div class="col-sm-12">
             <h4 id="{{ next_year }}-ref">
-              <p class="text-left"> {{next_year}} </p>
+              <p class="text-center"> {{next_year}} </p>
               <hr />
             </h4>
           </div>
