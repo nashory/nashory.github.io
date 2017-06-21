@@ -19,3 +19,9 @@ categories: routine programming
 <h1>3. github, jekyll, bootstrap</h1>
 ---
 &nbsp; &nbsp; 나는 `github`를 이용해서 블로그 개설이 가능하다는 것을 불과 얼마전에 알았다. 버전관리용으로 만들어진 `github`에서는 사용자 블로그를 위한 도메인을 무료로 제공하고 있으며 `jekyll` 등의 툴을 이용하면 누구나 쉽게 시도해 볼 수 있다. 물론 약간의 `CSS + html` 관련 배경지식을 필요로 할 수 있지만 `jekyll`의 레이아웃 등의 구성 원리만 파악하면 초보자들도 쉽게 따라할 수 있는 수준이다. 사실 `github`와 `jekyll`를 이용한 블로그 개설방법은 구글에 검색하면 관련 포스팅을 많이 찾을 수 있다. 때문에 본 포스팅에서는 블로그 개설과정에서 많은 도움이 되었던 사이트/블로그의 url과 내가 세팅한 환경등에 대한 간단한 소개만 하고, 다음 포스팅에서 `jekyll`과 `bootstrap`이 `github` 블로그에서 어떻게 동작하는지에 대해 자세히 이야기 하고자 한다.
+
+**References**
+> - [지킬 블로그 구글 검색 가능하게 하는 방법](https://wayhome25.github.io/etc/2017/02/20/google-search-sitemap-jekyll/)
+> - [Jekyll 기반의 GitHub Pages에 블로그 만들기](https://xho95.github.io/blog/github/jekyll/git/2016/01/11/Make-a-blog-with-Jekyll.html)
+> - [Atom 을 마크다운(Markdown) 에디터로 사용하기](http://futurecreator.github.io/2016/06/14/atom-as-markdown-editor/)
+> - [지킬로 깃허브에 무료 블로그 만들기](https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/)
